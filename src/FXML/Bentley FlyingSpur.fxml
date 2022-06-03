@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FlyingSpurController">
+   <children>
+      <Text fill="WHITE" layoutX="196.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BENTLEY FLYING SPUR" textAlignment="CENTER" wrappingWidth="208.615234375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="Back" layoutX="502.0" layoutY="24.0" onAction="#Back" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: #2196F3; -fx-border-color: #FFFFFF;" text="BACK" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="BookNow" layoutX="120.0" layoutY="597.0" onAction="#BookNow" prefHeight="40.0" prefWidth="153.0" style="-fx-background-color: #2196F3; -fx-border-color: #FFFFFF;" text="BOOK NOW" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="TestDrive" layoutX="338.0" layoutY="597.0" onAction="#TestDrive" prefHeight="40.0" prefWidth="153.0" style="-fx-background-color: #2196F3; -fx-border-color: #FFFFFF;" text="TEST DRIVE" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="185.0" fitWidth="290.0" layoutX="29.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/flying%20spur/98-bentley-flying-spur-mulliner-official-reveal-rear.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="167.0" fitWidth="242.0" layoutX="338.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/flying%20spur/bentley-flying-spur-mulliner.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="185.0" fitWidth="296.0" layoutX="21.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/flying%20spur/2022-bentley-flying-spur-mulliner-three-quarters.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="371.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEATING CAPACITY : 4" wrappingWidth="141.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="371.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FUEL TANK CAPACITY: 90 L" wrappingWidth="175.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="357.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HORSEPOWER: 405 TO 467 KW" wrappingWidth="201.13671964406967">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="347.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CURB WEIGHT: 2,330 TO 2,437 KG" wrappingWidth="220.13671272993088">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="338.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRANSMISSION: 8-SPEED AUTOMATIC" wrappingWidth="242.00000166893005">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="356.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENGINE: 4.0 L V8, 6.0 L V12" wrappingWidth="201.13671272993088">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="212.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE : ₹ 3.41 Crore" wrappingWidth="175.13671964406967">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

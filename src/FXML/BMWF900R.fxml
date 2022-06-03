@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="830.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BMWF900RController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="275.0" layoutY="5.0" prefHeight="46.0" prefWidth="316.0" text="BMW F 900 R" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="147.0" fitWidth="258.0" layoutX="304.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/bikes/BMW/F%20900R/bmw-f-900%20r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="204.0" fitWidth="258.0" layoutX="28.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/bikes/BMW/F%20900R/bmef900r.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="172.0" fitWidth="258.0" layoutX="28.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/bikes/BMW/F%20900R/bmwf900r.jpeg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="Back" buttonType="RAISED" layoutX="724.0" layoutY="14.0" onAction="#Back" style="-fx-background-color: #2196f3;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="316.0" layoutY="346.0" prefHeight="40.0" prefWidth="257.0" text="SPECIFICATIONS" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="574.0" layoutY="224.0" prefHeight="40.0" prefWidth="237.0" text="Price : Rs. 10,80,000" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="304.0" layoutY="399.0" prefHeight="35.0" prefWidth="519.0" text="Engine Type : water cooled 4 stroke in_line two cylinder engine" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="415.0" layoutY="426.0" prefHeight="35.0" prefWidth="316.0" text="four valves per two overhead camshats" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="510.0" prefHeight="35.0" prefWidth="228.0" text="Fuel Capacity: 13L" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="453.0" prefHeight="35.0" prefWidth="238.0" text="Displacement : 895 cc" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="483.0" prefHeight="25.0" prefWidth="367.0" text="Max Power : 104.6 PS @8500 rpm" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="535.0" prefHeight="40.0" prefWidth="553.0" text="Clutch : Multiple-disc wet clutch anti hopping mechanically operated " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="564.0" prefHeight="46.0" prefWidth="809.0" text="Additional Features : Dynamic brake light, Electronic immobiliser, Automatic Stability Control." textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="TestDrive" buttonType="RAISED" layoutX="157.0" layoutY="630.0" onAction="#TestDrive" prefHeight="46.0" prefWidth="129.0" style="-fx-background-color: #2196f3;" text="TEST DRIVE " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="547.0" layoutY="640.0" prefHeight="42.0" prefWidth="71.0" />
+      <JFXButton fx:id="BookNow" buttonType="RAISED" layoutX="541.0" layoutY="630.0" onAction="#BookNow" prefHeight="46.0" prefWidth="130.0" style="-fx-background-color: #2196f3;" text="BOOK NOW" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="820.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EMIController">
+   <children>
+      <Text fill="WHITE" layoutX="339.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" EMI PAYMENT" wrappingWidth="171.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="logout" layoutX="708.0" layoutY="26.0" onAction="#logout" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: #2196F3; -fx-border-color: WHITE;" text="LOG OUT" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="booknow" layoutX="324.0" layoutY="501.0" onAction="#booknow" prefHeight="35.0" prefWidth="201.0" style="-fx-background-color: #2196F3; -fx-border-color: WHITE;" text="PROCEED TO BOOK" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="350.0" fitWidth="365.0" layoutX="34.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/308fc955-25af-4515-a46c-598250a01cf5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="370.0" fitWidth="401.0" layoutX="403.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/54ceeca4-c742-4913-8ecd-4eb1cc949f7c%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="101.0" layoutY="462.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SELECT BANK" wrappingWidth="89.9999874830246">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <JFXRadioButton layoutX="94.0" layoutY="480.0" prefHeight="25.0" prefWidth="118.0" selected="true" text="BIKE" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="emi" />
+         </toggleGroup>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="94.0" layoutY="506.0" prefHeight="25.0" prefWidth="110.0" text="CAR" textFill="WHITE" toggleGroup="$emi" />
+      <JFXTextField fx:id="name" layoutX="204.0" layoutY="444.0" prefHeight="25.0" prefWidth="201.0" />
+   </children>
+</AnchorPane>

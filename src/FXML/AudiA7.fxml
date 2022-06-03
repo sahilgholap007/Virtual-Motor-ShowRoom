@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AudiA7Controller">
+   <children>
+      <Label layoutX="214.0" layoutY="64.0" text="AUDI A7" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="74.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/cars%20info/Audi/Audi%20A7/Audi-A7%20Front.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="185.0" layoutX="335.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/cars%20info/Audi/Audi%20A7/audi-a7%20back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="111.0" fitWidth="223.0" layoutX="75.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/cars%20info/Audi/Audi%20A7/Audi-A7interior.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="378.0" text="Fuel Type :-    Diesel" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="486.0" text="Max Power (bhp@rpm) :-  241.4bhp@4000-4500rpm" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="418.0" text="Seating Capacity :-     5" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="440.0" text="Boot Space (Litres) :-     535" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="462.0" text="TransmissionType :-     Automatic" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="397.0" text="Fuel Tank Capacity :-     65.0" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="BookNow" layoutX="115.0" layoutY="567.0" onAction="#Booking" prefHeight="60.0" prefWidth="160.0" style="-fx-background-color: #2196f3;" text="BOOK NOW" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="TestDrive" layoutX="353.0" layoutY="567.0" onAction="#TestDrivePage" prefHeight="60.0" prefWidth="160.0" style="-fx-background-color: #2196f3;" text="TEST DRIVE" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Back" layoutX="468.0" layoutY="42.0" onAction="#PreviousPage" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #2196f3; -fx-border-color: #ffffff;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="74.0" layoutY="509.0" text="Price :-    Rs. 90.50 Lakh" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

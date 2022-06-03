@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="887.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CarsController">
+   <children>
+      <ImageView fitHeight="132.0" fitWidth="95.0" layoutX="412.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Resources/png/Car_100px.png" />
+         </image>
+         <effect>
+            <Bloom />
+         </effect>
+      </ImageView>
+      <JFXButton fx:id="Bentley" contentDisplay="GRAPHIC_ONLY" layoutX="46.0" layoutY="182.0" onAction="#Bentley" prefHeight="141.0" prefWidth="252.0">
+         <graphic>
+            <ImageView fitHeight="103.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/bentley.gif" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="353.0" layoutY="355.0" prefHeight="196.0" prefWidth="213.0">
+         <graphic>
+            <ImageView fitHeight="189.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/gifs/mercedes.gif" />
+               </image></ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="Audi" contentDisplay="GRAPHIC_ONLY" layoutX="314.0" layoutY="136.0" onAction="#AudiPage" prefHeight="196.0" prefWidth="286.0" text="Button">
+         <graphic>
+            <ImageView fitHeight="207.0" fitWidth="302.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/gifs/Audi.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="RollsRoyce" contentDisplay="GRAPHIC_ONLY" layoutX="22.0" layoutY="365.0" onAction="#rolls" prefHeight="179.0" prefWidth="305.0">
+         <graphic>
+            <ImageView fitHeight="165.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/Resources/gifs/rollsroyce.gif" />
+               </image></ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="578.0" layoutY="172.0" prefHeight="130.0" prefWidth="153.0">
+         <graphic>
+            <ImageView fitHeight="144.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/gifs/Lamborghini.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      
+      <JFXButton fx:id="Home" layoutX="700.0" layoutY="49.0" onAction="#HomePage" prefHeight="45.0" prefWidth="95.0" style="-fx-background-color: #2196f3; -fx-border-color: #ffffff;" text="Home" textFill="WHITE" />
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="603.0" layoutY="375.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/tesla.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

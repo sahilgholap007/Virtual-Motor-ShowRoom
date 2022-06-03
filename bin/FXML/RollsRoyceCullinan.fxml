@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.RollsRoyceCullinanController">
+   <children>
+      <Label layoutX="105.0" layoutY="44.0" prefHeight="42.0" prefWidth="372.0" text=" ROLLS ROYCE CULLINAN" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="24.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="27.0" layoutY="366.0" prefHeight="15.0" prefWidth="212.0" text="Fuel Type - Petrol" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="342.0" prefHeight="16.0" prefWidth="160.0" text="Specifications : " textFill="#fff9f9" underline="true">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="24.0" layoutY="382.0" prefHeight="23.0" prefWidth="241.0" text="Engine Type6.75-litre V12" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="405.0" prefHeight="5.0" prefWidth="267.0" text="Max Power : 563bhp@5000rpm" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="421.0" prefHeight="3.0" prefWidth="267.0" text="Max Torque : 850Nm@1600rpm" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="437.0" prefHeight="17.0" prefWidth="335.0" text="No. of cylinder : 12Valves Per Cylinder4" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="453.0" prefHeight="3.0" prefWidth="308.0" text="Gear Box : 8 Speed" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="469.0" prefHeight="16.0" prefWidth="267.0" text="TransmissionType : Automatic" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="525.0" prefHeight="16.0" prefWidth="139.0" text="Price = 6.95 cr" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="501.0" prefHeight="0.0" prefWidth="308.0" text="Fuel Supply System : Direct Injection" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="485.0" prefHeight="5.0" prefWidth="308.0" text=" EngineDisplacement : (cc)6750" textFill="#fcfcfc">
+         <font>
+            <Font name="Bank Gothic Light BT" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Back" layoutX="483.0" layoutY="23.0" onAction="#Back" prefHeight="42.0" prefWidth="97.0" style="-fx-background-color: #2196f3; -fx-border-color: #ffffff;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="TestDrive" layoutX="114.0" layoutY="576.0" onAction="#TestDrive" prefHeight="49.0" prefWidth="118.0" style="-fx-background-color: #2196f3;" text="TEST DRIVE" textFill="#eeeeee">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="BookNow" layoutX="365.0" layoutY="576.0" onAction="#BookNow" prefHeight="49.0" prefWidth="118.0" style="-fx-background-color: #2196f3;" text="BOOK NOW" textFill="#eeeeee">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="13.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="162.0" fitWidth="200.0" layoutX="58.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/Culi/544730.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="114.0" fitWidth="206.0" layoutX="333.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/Culi/rolls-royce-cullinan-in-detail-hero-d.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="203.0" layoutX="331.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/Culi/2021-rolls-royce-cullinan-mmp-2-1606753870.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

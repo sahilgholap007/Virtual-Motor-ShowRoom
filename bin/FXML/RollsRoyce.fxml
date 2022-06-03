@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="820.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.RollsRoyceController">
+   <children>
+      <Label layoutX="256.0" layoutY="52.0" prefHeight="39.0" prefWidth="310.0" text="ROLLS ROYCE " textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Cullinan" contentDisplay="TOP" layoutX="14.0" layoutY="115.0" onAction="#OpenPage" prefHeight="160.0" prefWidth="287.0" text="ROLLS ROYCE CULLINAN" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="125.0" fitWidth="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/images%20(1).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="Dawn" contentDisplay="TOP" layoutX="561.0" layoutY="289.0" onAction="#RollsRoyceDawn" prefHeight="149.0" prefWidth="244.0" text="ROLLS ROYCE DAWN" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/RollsRoyce-Dawn-Right-Front-Three-Quarter-75144.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font></JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="552.0" layoutY="117.0" prefHeight="158.0" prefWidth="263.0" text="ROLLS ROYCE WRAITH" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="127.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/Rolls-Royce-Wraith-Black-Badge-2021-Novitec-Spofec-offers-more-than-700-horsepower.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font></JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="32.0" layoutY="295.0" text="ROLLS ROYCE GHOST" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="121.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/images.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Phantom" contentDisplay="TOP" layoutX="267.0" layoutY="210.0" onAction="#Phantom" prefHeight="149.0" prefWidth="287.0" text="ROLLS ROYCE PHANTOM" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="129.0" fitWidth="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/SAHIL/FXML%20docs/SNEHA/Photos/2021-rolls-royce-phantom-mmp-1-1608156397.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Back" layoutX="658.0" layoutY="40.0" onAction="#Back" prefHeight="39.0" prefWidth="93.0" style="-fx-background-color: #2196f3; -fx-border-color: #ffffff;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

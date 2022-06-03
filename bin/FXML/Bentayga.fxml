@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BentaygaController">
+   <children>
+      <JFXButton fx:id="Back" layoutX="499.0" layoutY="29.0" onAction="#Back" prefHeight="40.0" prefWidth="73.0" style="-fx-background-color: #2196F3; -fx-border-color: #FFFFFF;" text="BACK" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="TestDrive" layoutX="340.0" layoutY="592.0" onAction="#TestDrive" prefHeight="40.0" prefWidth="153.0" style="-fx-background-color: #2196F3; -fx-border-color: #FFFFFF;" text="TEST DRIVE" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="BookNow" layoutX="116.0" layoutY="592.0" onAction="#BookNow" prefHeight="40.0" prefWidth="153.0" style="-fx-background-color: #2196F3; -fx-border-color: #FFFFFF;" text="BOOK NOW" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Text fill="WHITE" layoutX="154.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BENTLEY BENTAYGA" textAlignment="CENTER" wrappingWidth="291.615234375">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="155.0" fitWidth="269.0" layoutX="48.0" layoutY="124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/bentayga/2021-bentley-bentayga-facelift-launched-in-india-at-rs-410-crore.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="155.0" fitWidth="269.0" layoutX="48.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/bentayga/maxresdefault.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="232.0" layoutX="340.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/bentayga/old_Bentley_Bentayga_2021_SUV_60ed57397fef7.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="371.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SEATING CAPACITY: 5" wrappingWidth="153.0000038444996">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="371.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FUEL TANK CAPACITY: 85 L">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="370.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENGINE: 4.0 L V8">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="370.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HORSEPOWER: 405 KW">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="370.0" layoutY="490.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARGO VOLUME: 484 L">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="360.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRICE ₹4.10 CRORE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

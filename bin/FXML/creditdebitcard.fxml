@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.CreditDebitController">
+   <children>
+      <Text fill="WHITE" layoutX="213.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CREDIT / DEBIT CARD" wrappingWidth="194.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="76.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARD NUMBER" wrappingWidth="88.99998927116394" />
+      <Text fill="WHITE" layoutX="129.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CVV" wrappingWidth="30.13671875">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="80.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EXPIRY DATE" wrappingWidth="81.99999558925629">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="39.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CARD HOLDERS NAME" wrappingWidth="125.13671875" />
+      <JFXRadioButton layoutX="88.0" layoutY="96.0" selected="true" text="CREDIT CARD" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="card" />
+         </toggleGroup>
+      </JFXRadioButton>
+      <JFXRadioButton layoutX="88.0" layoutY="125.0" text="DEBIT CARD" textFill="WHITE" toggleGroup="$card">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXButton fx:id="pay" layoutX="231.0" layoutY="330.0" onAction="#pay" prefHeight="32.0" prefWidth="160.0" style="-fx-background-color: #2196F3; -fx-border-color: WHITE;" text="PROCEED TO PAY" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="logout" layoutX="479.0" layoutY="27.0" onAction="#logout" prefHeight="32.0" prefWidth="89.0" style="-fx-background-color: #2196F3; -fx-border-color: WHITE;" text="LOG OUT" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="cardno" focusColor="#009688" layoutX="172.0" layoutY="161.0" prefHeight="25.0" prefWidth="277.0" />
+      <JFXTextField fx:id="cvv" focusColor="#009688" layoutX="172.0" layoutY="201.0" prefHeight="25.0" prefWidth="51.0" />
+      <JFXDatePicker fx:id="expiry" layoutX="172.0" layoutY="240.0" />
+      <JFXTextField fx:id="name" focusColor="#009688" layoutX="172.0" layoutY="277.0" prefHeight="25.0" prefWidth="277.0" />
+   </children>
+</AnchorPane>

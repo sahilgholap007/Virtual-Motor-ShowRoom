@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="830.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BMWG310RController">
+   <children>
+      <Label layoutX="310.0" layoutY="22.0" prefHeight="46.0" prefWidth="211.0" text="BMW G 310 R" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Back" layoutX="681.0" layoutY="49.0" onAction="#Back" prefHeight="39.0" prefWidth="81.0" style="-fx-background-color: #2196f3;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="182.0" fitWidth="263.0" layoutX="19.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/bikes/BMW/bmw%20g%20310r/BMW%20G%20310%20R.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="168.0" fitWidth="255.0" layoutX="23.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/bikes/BMW/bmw%20g%20310r/right-front-three-quarter.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="277.0" layoutX="309.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/Resources/bikes/BMW/bmw%20g%20310r/bmw%20g%20310r.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="592.0" layoutY="225.0" prefHeight="57.0" prefWidth="211.0" text="Price : Rs. 2,50,304" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="321.0" prefHeight="58.0" prefWidth="243.0" text="SPECIFICATIONS " textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="519.0" layoutY="502.0" prefHeight="30.0" prefWidth="232.0" text="Displacement : 313 cc" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="197.0" layoutY="456.0" prefHeight="40.0" prefWidth="263.0" text="Max Power : 34 PS @ 9250 rpm" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="461.0" prefHeight="30.0" prefWidth="250.0" text=" Fuel Capacity : 11 Liters" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="503.0" prefHeight="27.0" prefWidth="250.0" text="Mileage (Highway)39.44 kmpl" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="317.0" layoutY="379.0" prefHeight="27.0" prefWidth="528.0" text="Engine Type : water cooled 4 stroke in_line two cylinder engine" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="401.0" layoutY="406.0" prefHeight="27.0" prefWidth="435.0" text="4-stroke engine, four valves, two overhead camshafts" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="TestDrive" buttonType="RAISED" layoutX="217.0" layoutY="630.0" onAction="#TestDrive" style="-fx-background-color: #2196f3;" text="TEST DRIVE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="BookNow" layoutX="570.0" layoutY="630.0" onAction="#BookNow" style="-fx-background-color: #2196f3;" text="BOOK NOW " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="433.0" layoutY="433.0" prefHeight="27.0" prefWidth="218.0" text=" wet sump lubrications." textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="541.0" text="Top Speed (KPH)143 kmph" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="519.0" layoutY="541.0" prefHeight="27.0" prefWidth="198.0" text="Load Capacity181 kg" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="575.0" text="Max Torque28 Nm @ 7500 rpm" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="527.0" layoutY="575.0" text="Emission Type : bs6" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

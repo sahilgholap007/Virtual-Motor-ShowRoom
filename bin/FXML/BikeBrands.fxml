@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BikesController">
+   <children>
+      <JFXButton fx:id="Home" layoutX="484.0" layoutY="24.0" onAction="#HomePage" prefHeight="40.0" prefWidth="87.0" style="-fx-background-color: #2196f3; -fx-border-color: #ffffff;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="107.0" fitWidth="122.0" layoutX="239.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Desktop/SAHIL/Resorses/motorbikes.png" />
+         </image>
+         <effect>
+            <Bloom />
+         </effect>
+      </ImageView>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="50.0" layoutY="115.0" prefHeight="88.0" prefWidth="122.0" text="Button" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="116.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/11413-2009-logo-ducati-motorcycles-transport.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="BMW" contentDisplay="GRAPHIC_ONLY" layoutX="219.0" layoutY="124.0" onAction="#BMW" prefHeight="40.0" prefWidth="61.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="133.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/BMW.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="HD" contentDisplay="GRAPHIC_ONLY" layoutX="406.0" layoutY="79.0" onAction="#HD" prefHeight="105.0" prefWidth="132.0" text="Button" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="188.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/harley.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="54.0" layoutY="259.0" prefHeight="92.0" prefWidth="122.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="99.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/Resources/gifs/RE.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="222.0" layoutY="275.0" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="99.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/triumph.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" layoutX="412.0" layoutY="264.0" prefHeight="98.0" prefWidth="135.0">
+         <graphic>
+            <ImageView fitHeight="112.0" fitWidth="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/gifs/kawasaki.gif" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

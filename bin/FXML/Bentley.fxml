@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="572.0" prefWidth="820.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.BentleyController">
+   <children>
+      <JFXButton fx:id="Back" layoutX="712.0" layoutY="39.0" onAction="#Back" prefHeight="33.0" prefWidth="70.0" style="-fx-background-color: #2196f3; -fx-border-color: #FFFFFF;" text="BACK" textAlignment="CENTER" textFill="#fcf7f7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <Text fill="WHITE" layoutX="332.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BENTLEY" textAlignment="CENTER" wrappingWidth="185.13671875">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="Bentayga" contentDisplay="TOP" layoutX="54.0" layoutY="128.0" onAction="#Bentayga" prefHeight="161.0" prefWidth="247.0" text="BENTLEY BENTAYGA" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="166.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/home%20page/20200701104409_Bentley-bentayga-facelift-front-2.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton contentDisplay="TOP" layoutX="43.0" layoutY="352.0" prefHeight="163.0" prefWidth="292.0" text="BENTLEY CONTINENTAL GT" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="152.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/home%20page/2022_BentleyContinentalGTSpeed_1.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="FlyingSpur" contentDisplay="TOP" layoutX="425.0" layoutY="149.0" onAction="#FlyingSpur" prefHeight="163.0" prefWidth="255.0" text="BENTLEY FLYING SPUR" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="174.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/home%20page/Bentley-Flying-Spur.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="Mulsanne" contentDisplay="TOP" layoutX="425.0" layoutY="362.0" onAction="#Mulsanne" prefHeight="163.0" prefWidth="227.0" text="BENTLEY MULSANNE" textFill="WHITE">
+         <graphic>
+            <ImageView fitHeight="176.0" fitWidth="302.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../OneDrive/Desktop/Resources/cars/bentley/home%20page/bentley-Mulsanne.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
